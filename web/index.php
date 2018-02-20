@@ -22,11 +22,11 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $app = new Silex\Application();
 
 $app->get('/', function () {
-    return 'Hi world!';
+    return 'Wow, such world.';
 });
 
 $app->get('/goodbye', function () {
-    return 'Goodbye World';
+    return 'Wow, such goodbye. Many smells. Such bye';
 });
 
 // @codeCoverageIgnoreStart
